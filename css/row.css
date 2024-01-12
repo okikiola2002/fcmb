@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 75%;
+    margin: 7% auto;
+    background: #ccc;
+}
+header {
+    background: #f7f7f7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    list-style-type:none;
+}
+.social-icon ul{
+    padding: 0;
+    margin: 0;
+}
+.social-icon ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+li a{
+    text-decoration: none;
+    color: #333;
+}
+.showcase-text{
+    float: right;
+    padding: 10% 10px;
+    color: #fff;
+    width: 70%;
+    text-align: center;
+    
+}
+
+.showcase-text h2{
+    font-size: 30px;
+    /* line-height: 4rem; */
+}
+
+.btn-showcase{
+    margin-bottom: 20px;
+    /* float: right; */
+    margin-right: 20px;
+    border: none;
+    background: linear-gradient(rgb(248, 8, 8),rgb(123, 3, 3));
+    padding: 10px;
+    /* border-radius: 50px; */
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    transition: 2s all;
+}
+.showcase-text h5{
+    font-size: 15fgtrpx;
+    color: #f7f7f7;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.row{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-md-4{
+    width: 33%;
+    /* border: 1px solid #333; */
+    border-radius: 10px;
+    /* height: 300px; */
+    margin: 0 20px;
+    box-shadow: 2px 2px 2px 2px #e6e3e3;
+}
+.text{
+    padding: 15px;
+}
+
+.btn-grid{
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    background: linear-gradient(rgb(248, 8, 8),rgb(123, 3, 3));
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    transition: 2s all;
+}
+
+button:hover{
+    background: linear-gradient(rgb(7, 7, 7),rgb(58, 55, 55));
+}
+footer{
+    background: #333;
+    height: 200px;
+    color: #fff;
+}
+
+.col-md-3{
+    height: 150px;
+}
+
+.copyright{
+    text-align: center;
+}
